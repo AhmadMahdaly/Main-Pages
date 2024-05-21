@@ -1,0 +1,32 @@
+flutter_native_splash
+
+طريقة الاستخدام//
+1- 
+الدخول على ملف
+pubspec.yaml
+وتكتب اسم ال
+package
+تحت
+dependencies
+أو تستخدم ال
+terminal.
+ 
+2-
+من خلال كتابة الأمر:
+dart run flutter_native_splash:create
+لينشئ الفايل الذي يحتاجه المشروع
+
+3-
+تالت حاجة: تكتب الأمر
+dart run flutter_native_splash:create --path=flutter_native_splash.yaml
+في ال
+terminal
+ليحدد الفايل بصيغة
+.yaml
+
+وأخيرًا: تفتح الفايل
+flutter_native_splash.yaml
+وتضيف المسار الخاص بالصورة في المفتاح اللي اسمه 
+image
+وتكتب اللون اللي عايز تستخدمه في المفتاح اللي اسمه 
+color.
