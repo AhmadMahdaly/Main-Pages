@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:better_me/home_screen.dart';
 
 // this splash screen for my app //
 class SplashScreen extends StatefulWidget {
@@ -39,11 +38,15 @@ class _SplashScreenState extends State<SplashScreen>
     return Scaffold(
       body: Container(
         width: double.infinity,
+        
         decoration: const BoxDecoration(
+          
 // the GRADIENT what I use //
           gradient: LinearGradient(
+            
 // select color for GRADIENT //
             colors: [Color(0xFF8F81BC), Colors.white10],
+            
 // select direction for GRADIENT //
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
@@ -52,6 +55,7 @@ class _SplashScreenState extends State<SplashScreen>
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            
 // add your images & Icon or Text //
             
             Image(
