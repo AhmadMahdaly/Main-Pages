@@ -40,6 +40,7 @@ class _SplashScreenState extends State<SplashScreen>
         width: double.infinity,
         
         decoration: const BoxDecoration(
+          //color: Color(0xFF0078FF),
           
 // the GRADIENT what I use //
           gradient: LinearGradient(
